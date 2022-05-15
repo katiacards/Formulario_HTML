@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho sobre Formulários</title>
+    <link href="body_css.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>Formulário</h1>
+    </div>
+    <div class="form">
+
+
+        <form>
+            <label>Nome: </label>
+            <input type="text"> <br>
+            <label>Data de Nascimento:</label>
+            <input type="datetime"><br>
+
+            <label>Sexo: </label>
+
+            <input type="radio" value="masc" id="masc" name="sex">
+            <label for="masc">Masc</label>
+
+            <input type="radio" value="fem" id="fem" name="sex">
+            <label for="fem">Fem</label>
+            <input type="radio" value="nao_dizer" id="nao_dizer" name="sex">
+            <label for="nao_dizer">Prefiro não informar</label><br>
+            <label> Endereço:</label><br>
+            <label for="logradouro">Logradouro:</label>
+            <input type="text">
+            <br>
+            <label for="bairro">Bairro:</label>
+            <input type="text"><br>
+            <label for="cidade">Cidade</label>
+            <input type="text"><br>
+            <label for="estados">UF</label>
+            <select>
+                <option value="AC">AC</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+            </select><br>
+            <label for="email">Email:</label>
+            <input type="email"><br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+
+    </div>
+
+</body>
+
+</html>
